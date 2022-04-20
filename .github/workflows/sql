@@ -14,6 +14,7 @@ $productId=$rs['ProductId'];
 
 
 
+
 $ProductSelectRR2 = $ProductConnection->query("SELECT * FROM Products where Id = $productId");
 $row = mysql_fetch_assoc($ProductSelectRR2);
 
